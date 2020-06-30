@@ -1,0 +1,10 @@
+INSERT INTO public.mahasiswa(alamat, nama)
+	VALUES ('Jl. Jeruk 1 Jakarta','Afris'),('Jl. Apel 20 Depok','Fajar');
+
+INSERT INTO public.matakuliah(namamatakuliah, mahasiswa_id)
+    VALUES  ('BASIS DATA',1),
+            ('MOBILE PROGRAMMING',1),
+            ('SISTEM INFORMASI',1),
+            ('BASIS DATA',2),
+            ('MOBILE PROGRAMMING',2),
+            ('SISTEM INFORMASI',2);
